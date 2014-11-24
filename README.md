@@ -21,6 +21,14 @@ with Homebrew:
 Install
 -------
 
+We recommend installing through [Homebrew] if you're on OS X, because then you
+don't have to install `parity` for every Ruby version you have:
+
+    brew tap thoughtbot/formulae
+    brew install parity
+
+If you're not on a Mac:
+
     gem install parity
 
 This installs three shell commands:
@@ -28,6 +36,8 @@ This installs three shell commands:
     development
     staging
     production
+
+[Homebrew]: http://brew.sh/
 
 Usage
 -----
